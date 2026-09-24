@@ -1,5 +1,38 @@
  class First {
     public static void main(String args[]){      //String-s capital
-        System.out.println("hello world");    //System-s caps
+        System.out.println("hello world");    //System-s caps.   and if u write just print in ot u dont get a line 
+        System.out.println(); //if u type sout ull get full system.out.print shortvute method ths all
+
+
+
+
+
+        // variables
+        //int age=30;
+        //string neighbour="gowda";
+        //string lol=neighbour;
+
+
+
+        //primitive types 
+        //byte - 1 [-128 to 127]
+        //short - 2 bytes of memory needed
+        //int - 4
+        //long - 8
+        //float - 4
+        //doublt - 8
+        // char - 2
+        // boolean -1 true/false
+        
+       /*  byte age=30;
+        int phone=1234567890; //if u add one more digit it gives error cuz it cant store more digits instead use long
+        long phone2=12345678900L;
+        float pi=3.14F;
+        char letter='a';
+        boolean isAdult=true;
+        */
+
+
+
     }
 }

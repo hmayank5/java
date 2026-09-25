@@ -8,9 +8,10 @@
 
 
         // variables
-        //int age=30;
-        //string neighbour="gowda";
-        //string lol=neighbour;
+        int age=30;
+        String neighbour="gowda";
+        String lol=neighbour;
+        System.out.println(lol);
 
 
 
@@ -31,6 +32,16 @@
         char letter='a';
         boolean isAdult=true;
         */
+
+
+
+
+        //non primitive
+        String name="mayank";
+        System.out.println(name.length());   //prints 6
+
+
+
 
 
 

@@ -43,6 +43,31 @@
 
 
 
+        //Strings
+        //concatenate
+        String name1="mayank";
+        String name2="tanmay";
+        String name3=name1 + " and " + name2;
+        System.out.println(name3);
+
+
+        //charAt
+         String name4="mayank";
+         System.out.println(name4.charAt(0));  //to print the particular char this is used basically like slicing kida in this
+         
+         //length
+          System.out.println(name4.length()); //not required to write in ()
+          
+
+
+
+
+
+
+
+
+
+
 
 
     }

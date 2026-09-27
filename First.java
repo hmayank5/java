@@ -57,7 +57,13 @@
          
          //length
           System.out.println(name4.length()); //not required to write in ()
-          
+
+
+          //replace
+          String name5=name4.replace("m","s");
+          System.out.println(name5);
+
+
 
 
 

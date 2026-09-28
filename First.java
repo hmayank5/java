@@ -63,6 +63,10 @@
           String name5=name4.replace("m","s");
           System.out.println(name5);
 
+          //sub string
+          String name6 = "aman and akku";
+          System.out.println(name6.substring(0,4));
+
 
 
 

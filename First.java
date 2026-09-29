@@ -67,6 +67,20 @@
           String name6 = "aman and akku";
           System.out.println(name6.substring(0,4));
 
+          //array
+          int age1=30;
+          int phy=56;
+          int chem=44;
+          int maths=47;
+
+
+        int []marks=new int[3];
+        {
+            
+        }
+
+
+
 
 
 

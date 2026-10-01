@@ -75,6 +75,7 @@
 
 
         int []marks=new int[3];
+        marks[0]=97;
         {
             
         }

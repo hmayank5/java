@@ -78,6 +78,7 @@
         marks[0]=97;
         marks[1]=93;
         marks[2]=67;
+        marks[3]=55;
         {
             
         }

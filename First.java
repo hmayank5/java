@@ -81,6 +81,7 @@
         marks[3]=55;
         marks[4]=34;
         marks[5]=55;
+        marks[6]=76;
         {
             
         }

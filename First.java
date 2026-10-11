@@ -1,3 +1,4 @@
+ import java.util.Arrays;
  class First {
     public static void main(String args[]){      //String-s capital
         System.out.println("hello world");    //System-s caps.   and if u write just print in ot u dont get a line 
@@ -74,17 +75,37 @@
           int maths=47;
 
 
-        int []marks=new int[3];
+        int []marks=new int[3]; //after int put [] to know tht this is an array in java.and new is added cuz array is non primptive
         marks[0]=97;
         marks[1]=93;
         marks[2]=67;
-        marks[3]=55;
-        marks[4]=34;
-        marks[5]=55;
-        marks[6]=76;
-        marks[8]=90;
-        marks[9]=99;
-        marks[10]=98;
+        System.out.println(marks[0]);
+
+        //length
+        System.out.println(marks.length); //not required to write in () cuz this is not a method
+
+
+        //sort
+        // above at staring line imported java.util.array package to run this class
+        System.out.println(marks[0]); //prints 97 here cuz the marks was not sorted 
+        Arrays.sort(marks);
+        System.out.println(marks[0]); //prints 67 here cuz the marks was sorted .so gives in ascending order
+
+
+
+        //1-d array
+        int []marks1={97,93,67}; //if u know wht to store in array thn can use and like this also instead of using new keyword
+
+        //2-d array
+        int [][]marks2={{97,93},{67,87}};
+        System.out.println(marks2[0][1]); //prints 93 here
+        
+
+
+
+
+
+       
         {
             
         }

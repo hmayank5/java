@@ -99,7 +99,13 @@
         //2-d array
         int [][]marks2={{97,93},{67,87}};
         System.out.println(marks2[0][1]); //prints 93 here
-        
+
+
+
+
+
+        //casting
+        //now
 
 
 

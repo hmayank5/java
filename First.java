@@ -161,6 +161,32 @@
         String name8=sc.next(); //next() used to take string or char input.this only gives you first word in sentence if u want full sentence it shoud be necxtline()
         System.out.println(name8);
 
+        //comparision operator like == !=
+        //conditional statement like if else
+        //logical operator like &&
+
+        Scanner sc1=new Scanner(System.in);
+        int cash=sc1.nextInt();
+        if(cash<10){
+            System.out.println("waste");
+        }
+        else if(cash>10 && cash<40){ //else space if
+            System.out.println("okayish");
+        }
+        else{
+            System.out.println("good");
+        }
+
+        //switch
+
+        //loops
+        for(int q=0;q<=7;q++)
+        {
+        System.out.println(q);
+    }
+
+
+
         
 
 

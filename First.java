@@ -1,4 +1,5 @@
  import java.util.Arrays;
+ import java.util.Scanner;
  class First {
     public static void main(String args[]){      //String-s capital
         System.out.println("hello world");    //System-s caps.   and if u write just print in ot u dont get a line 
@@ -104,17 +105,86 @@
 
 
 
+
+
         //casting
-        //now
+        //implicit casting
+        double price=100.00;
+        double finalprice=price+18; //here 18 is int but it is automatically converted to double so this is implicit casting
+        System.out.println(finalprice);
+
+        //explicit casting
+        int p=100;
+        int fp=p+(int)18.18; //here 18.18 is double but it is explicitly converted to int so this is explicit eg.should write tht(int)so tht it is converted to int
+        System.out.println(fp);
+
+
 
 
 
 
 
        
-        {
+       
+        //constants
+        int age8=30;
+        age=31;
+        age=32; //this is not constant variable so it can be changed but if u want to make it constant thn use final keywprd like below
+        final int AGE=30; //this is final value of age ,if again type int age thn gives error
+
+
+
+
+
+
+        //did operators
+
+
+
+        //maths
+        System.out.println(Math.max(5,10));//prints 10  same can use min // and math-M caps
+
+
+
+
+
+        //how to take input?
+        Scanner sc=new Scanner (System.in); //before tis shoud write import java.util.Scanner thn do this only thn wroks 
+               //s -caps
+
+        System.out.println("input your age");
+        int age3=sc.nextInt(); //nextint() used to take integer input
+        System.out.println(age3);
+
+
+        System.out.println("input your name");
+        String name8=sc.next(); //next() used to take string or char input.this only gives you first word in sentence if u want full sentence it shoud be necxtline()
+        System.out.println(name8);
+
+        
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+        
             
-        }
+        
 
 
 

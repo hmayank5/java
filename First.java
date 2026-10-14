@@ -185,6 +185,39 @@
         System.out.println(q);
     }
 
+    //while
+    int z=10;
+    while(z>=1){
+        System.out.println(z);
+        z=z-1;
+    }
+
+
+
+    //do while
+    int k=10;
+    do{
+        System.out.println(k);
+    }while(k>=1); //have to put semi colon here remember
+
+
+    //just one project typa
+    Scanner sc2=new Scanner(System.in);
+    int number=0;    //should initilise int outside do while brackets
+    do{
+        System.out.println("input number");
+        number=sc2.nextInt();
+        System.out.println("your number");
+        System.out.println(number);
+    }while(number >=0);
+    System.out.println("the end");
+
+
+
+    
+
+
+
 
 
         

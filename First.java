@@ -195,10 +195,10 @@
 
 
     //do while
-    int k=10;
+    int k=3;
     do{
         System.out.println(k);
-    }while(k>=1); //have to put semi colon here remember
+    }while(k<=1); //have to put semi colon here remember
 
 
     //just one project typa
@@ -210,7 +210,39 @@
         System.out.println("your number");
         System.out.println(number);
     }while(number >=0);
-    System.out.println("the end");
+    System.out.println("the end"); //give -1 it gives you end
+    
+
+
+    //break and continue
+    int y=0;
+    while(true) {
+        y=y+1;
+        if(y==3){
+            continue;
+        }
+        System.out.println(y);
+        y=y+1;
+       if(y>5){
+        break;
+       }}
+
+
+       //try-catch in exception handling
+       int[]marks0={97,98,99};
+       try{
+        System.out.println(marks[5]);
+       }catch(Exception exception){
+        //do smtg after catching
+       }
+       System.out.println("hi myself mayank");
+//so basically marks[5] index doesnt exist so error occurs and thn rest code doesnt run .by adding try catch if error no error comes instead rest code runs
+
+       //methods/functions
+       
+
+
+
 
 
 

@@ -238,7 +238,7 @@
        System.out.println("hi myself mayank");
 //so basically marks[5] index doesnt exist so error occurs and thn rest code doesnt run .by adding try catch if error no error comes instead rest code runs
 
-       //methods/functions
+       
        
 
 

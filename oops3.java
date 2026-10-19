@@ -12,6 +12,6 @@ public class oops3 {
 Triangle t1=new Triangle();
 t1.color="blue";
 System.out.println(t1.color);
-
+System.out.println();
     }
 }

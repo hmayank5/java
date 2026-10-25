@@ -22,7 +22,7 @@ System.out.println();
 3.hierarchial inheritance =one parent class n multiple sub class
 */
 System.out.println(s);
-    }
+    }//hi
     //hi
 }
 

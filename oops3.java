@@ -20,9 +20,12 @@ System.out.println();
 2.multilevel inheritance =multiple sub class like eg u create one more sub class whihc extends triangle i.e †riangle is parent class for the new class created
 
 3.hierarchial inheritance =one parent class n multiple sub class
+
+4.hybrid inheritance=mix of all single.multi,and hierarcial 
+
 */
 System.out.println(s);
-    }//hi
-    //hi
+    }
+    
 }
 

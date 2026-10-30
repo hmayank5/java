@@ -26,6 +26,6 @@ System.out.println();
 */
 System.out.println(s);
     }
-    //35 minssss
+    //35 minssssssssss
 }
 

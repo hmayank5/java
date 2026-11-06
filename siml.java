@@ -32,4 +32,4 @@ public class siml {
 
         sc.close();
     }
-}//hihiihhihmmmmhmhmmhmhmhm
+}//so todays hm
